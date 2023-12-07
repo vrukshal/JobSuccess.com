@@ -1,5 +1,17 @@
-<h1> List of Pages</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <h1> List of Pages</h1>
 <ul>
+    <li> Login page</li>
+    <li> Sign Up page</li>
     <li>home page/dashboard</li>
     <li> Posts</li>
     <li> Notifications </li>
@@ -7,3 +19,83 @@
     <li> My resumes </li>
 </ul>
 
+
+
+<h1> List of APIS</h1>
+<ul>
+    <li> Sign up API</li>
+    <li> Login API</li>
+    <li> Add new post </li>
+    <li> Add comment on post </li>
+    <li> Add resume </li>
+    <li> Like Post </li>
+    <li> Load Notifications </li>
+    <li> Suggestpeople </li>
+    <li> Add to network</li>
+</ul>
+
+<h1> Database Design </h1>
+<ol>
+    <li> Users
+            <ul>
+                    <li> ID </li>
+                    <li> Name </li>
+                    <li> Email </li>
+                    <li> Number </li>
+                    <li> Password </li>
+                    <li> Current Job position </li>
+            </ul>  
+    </li>
+
+
+    <li> Posts
+        <ul>
+                <li> ID </li>
+                <li> UserID </li>
+                <li> Date Posted </li>
+                <li> Likes </li>
+                <li> Resume </li>
+                <li> Description </li>
+        </ul>  
+    </li>
+
+    <li> Comments
+        <ul>
+                <li> ID </li>
+                <li> PostID </li>
+                <li> UserID </li>
+                <li> CommenterID </li>
+                <li> Content </li>
+                <li> Seen </li>
+        </ul>  
+    </li>
+
+
+    <li> Connections
+        <ul>
+                <li> ID </li>
+                <li> UserID1 </li>
+                <li> UserID2 </li>
+                <li> date connected </li>
+
+        </ul>  
+    </li>
+
+
+    <li> Connection Requests
+        <ul>
+                <li> ID </li>
+                <li> SenderID </li>
+                <li> ReceiverID </li>
+                <li> Date Sent </li>
+                <li> Seen </li>
+                <li> Deleted </li>
+                
+        </ul>  
+    </li>
+
+
+
+</ol>
+</body>
+</html>
